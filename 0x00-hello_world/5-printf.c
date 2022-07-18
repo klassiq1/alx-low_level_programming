@@ -1,7 +1,9 @@
 #include<stdio.h>
 
 /*
+ * main - entry point
  * this decription is for printf function
+ * returns 0
  */
 int main(void)
 {
