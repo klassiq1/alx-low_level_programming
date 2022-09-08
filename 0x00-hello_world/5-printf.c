@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 /*
  * main - Print a string
  * this decription is for printf function
