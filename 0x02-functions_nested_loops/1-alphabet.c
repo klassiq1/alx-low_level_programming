@@ -1,14 +1,18 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include "hello.h"
+#include<stdio.h>
+#include "main.h"
+
 /**
- * main - Prints all possible combinations of single-digit numbers.
- * Return: Always 0.
- */
+*print alphabet from a-z
+*End-
+*/
 
-int main(void)
-
+void print_alphabet (void)
 {
-	print_alphabet();
-	return (0);
+	int i;
+
+	for (i='a'; i<'z';i++)
+	{
+		_putchar(i);
+	}
+	_putchar('\n');
 }
