@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <unistd.h>
 
 /**
  *  * main - Entry point
@@ -8,9 +9,13 @@
  *    * Return: 0
  */
 
+int _putchar()
+{
+	return (write("_putchar"));
+}
+
 int main(void)
 {
-	putchar("_putchar");
-	putchar("\n");
-	return (0);
+	_putchar();
+	return 0;
 }
