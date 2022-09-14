@@ -1,15 +1,15 @@
 #include "main.h"
+
 /**
- * add - add two integers
- * @a -first integer to be added
- * @b - second integer to be added
+ * add - Adds two integers and returns
+ * the result.
  *
- *   * @n: number of the times table
- *   Return: the result of the addition a and b
+ * @a: number one.
+ * @b: number two.
+ *
+ * Return: Add of number one and number two.
  */
-
 int add(int a, int b)
-
 {
 	return (a + b);
 }
